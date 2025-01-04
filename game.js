@@ -71,7 +71,7 @@ const game=(function(){
             if(res.condition=='Win'){
               output.classList.remove('hide')
               output.classList.add('show')
-              resHtml.innerHTML=`Congrats!!  ${res.pName} Won!`
+              resHtml.innerHTML=`<span style="color:#05661a;">Congrats!</span>🥳  ${res.pName} Won!`
               // tiles.forEach(t=>{t.classList.add('disabled')})
               gameArea.classList.add('disabled')
             }
